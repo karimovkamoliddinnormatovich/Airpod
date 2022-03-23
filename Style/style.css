@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body{
+    background: #181818;
+}
+
+.header-nav{
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.header__logo-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    padding-left: 230px;
+    padding: 6px 0 6px;
+}
+.header__list{
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    text-decoration: none;
+}
+.header__item{
+    padding-left: 30px;
+    list-style: none;
+}
+.header__icon{    
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    padding: 22px 0 22px;
+    display: flex;
+    align-items: center;
+}
+.icon-bag{
+    padding-left: 20px;
+}
+.header__link{
+    text-decoration: none;
+    color: white;
+}
+.header__link:hover{
+    color: rgb(247, 242, 0);
+}
+
+/* section intro */
+.intro{
+    position: relative;
+}
+.intro__bg{
+    width: 100%;
+}
+.intro__content{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #151515 100%), url(191028135414-airpods-pro-apple.jpg);
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.intro__title{
+    font-family: 'ProstoOne-Regular';
+    font-size: 100px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro__btn{
+    display: flex;
+    justify-content: center;
+    /* padding: 38px; */
+}
+.intro__btn-link{
+    border-radius: 10px;
+    width: 200px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    padding: 11px 11px 11px 11px ;
+}
+.intro__btn-text{
+    font-family: 'Montserrat-Medium';
+    font-size: 20px;
+    font-weight: 500;        
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.icon-link{
+    font-size: 16px;
+    color: black;
+    padding-left: 11px;
+    padding-top: 3px;
+}
+
+/* Airpod-one */
+
+.airpod-one__content{
+    background: #161616;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.airpod-one__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 30px;
+}
+.airpod-one__bg{
+    width: 552px;
+}
+.airpod-one__text{
+    font-family: 'Montserrat-Medium';
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+    width: 538px;
+    padding: 30px;
+}
+
+/* Airpod-two */
+
+.airpod-two__content{
+    background: #161616;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.airpod-two__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.airpod-two__bg{
+    margin-top: 30px;
+}
+.airpod-two__text{
+    font-family: 'Montserrat-Medium';
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+    width: 540px;
+}
+
+/* airpod-three */
+
+.airpod-three__content{
+    background: #161616;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.airpod-three__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.airpod-three__bg{
+    height: 385px;
+}
+.airpod-three__text{
+    font-family: 'Montserrat-Medium';
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+    width: 333px;
+}
+.airpod-three__line{
+    width: 61px;
+    height: 1px;
+    background: white;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+/* iphone */
+
+.iphone{
+    background: #161616;
+    width: 100%;
+    padding-top: 128px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.iphone__content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 245px;
+    margin-right: 245px;
+}
+.iphone__box{
+    background: white;
+    width: 255px;
+    height: 315px;
+    border-radius: 6px;
+    margin-bottom: 55px;
+}
+.iphone__title{
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.iphone__img{
+    display: flex;
+    padding-left: 66px;
+    padding-top: 10px;
+}
+.iphone__text{
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.iphone__btn{
+    background: black;
+    width: 161px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    margin-left: 47px;
+    margin-top: 20px;
+}
+.iphone__btn-link{
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-left: 58px;
+}
+
+/* footer */
+
+ 
+.footer-nav{
+    background: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 215px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    padding-left: 239px;
+}
+.footer__list{
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+}
+.footer__item{
+    margin-left: 30px;
+    list-style: none;
+}
+.footer__icon{
+    font-size: 55px;
+    color: white;
+    padding-right: 245px;
+}
+.footer__icon-visa{
+    padding-left: 20px;
+}
